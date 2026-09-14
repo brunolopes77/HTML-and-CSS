@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 19 - HTML</title>
+</head>
+<body>
+    <form action="paginaDestino.jsp" method = "post">
+        <fieldset>
+            <legend>Formulário</legend>
+            <div>
+                <label for="">Nome Completo</label><br>
+                <input type="text" name="" id="" required>
+            </div>
+            <br>
+            <div>
+                <label for="">e-mail</label><br>
+                <input type="email" name="" id=""placeholder  required="seuemail@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="">Idade</label>
+                <input type="number" name="" id="" min="14" 
+                max = "100"step="1" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Data do evento</label><br>
+                <input type="date" name="txtDataNascimento" id="txtDataNascinento"min="1901-01-01" max="2100-01-01">
+            </div>
+            <br>
+            <div>
+                <label for="">Modalidade do evento</label><br>
+                <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "1" >Presencial <br>
+                <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "2" >Remoto <br>
+            </div>
+            <br>
+                <div>
+                    <label for="">Horário preferido</label><br>
+                    <input type="time" name="" id="">
+                </div>
+                <br>
+                <div>
+                    <label for="">Áreas de interesse</label><br>
+                    <input type="radio" name="rdNaturezaCargo" id="rdFormaTrabalho"value = "1" >Tecnologia 
+                    <input type="radio" name="rdNaturezaCargo" id="rdFormaTrabalho"value = "2" >Saúde 
+                    <input type="radio" name="rdNaturezaCargo" id="chkFormaTrabalho"value = "3" >Empreendedorismo 
+                    <input type="radio" name="rdNaturezaCargo" id="rdFormaTrabalho"value = "3" >Jurídico  
+                </div>
+                <br>
+                <div>
+                    <label for="">Região</label><br>
+                    <select name="cboEstado" id="cboEstado">
+                        <option value="1">Sul</option>
+                        <option value="2">Sudeste</option>
+                        <option value="3">Norte</option>
+                        <option value="4">Nordeste</option>
+                        <option value="5">Centro-Oeste</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="">Cor do crachá</label><br>
+                    <input type="checkbox" required name="chkFormaTrabalho" id="chkFormaTrabalho"value = "1" >Azul 
+                    <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "2" >Verde 
+                    <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho" value = "3" >Vermelho 
+                </div>
+                <br>
+                <div>
+                    <label for="">Nível de expectativa</label><br>
+                    <select name="cboEstado" id="cboEstado">
+                        <option value="1">Muito baixo</option>
+                        <option value="2">Baixo</option>
+                        <option value="3">Médio</option>
+                        <option value="4">Alto</option>
+                        <option value="5">Muito alto</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="submit">Limpar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
